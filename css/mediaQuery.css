@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@media secreen and (min-width: 700px) and (max-width: 950px) {
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+        position: relative;
+        top: 150px;
+        color: white;
+}
+div#beatriz {
+    background-image: url(img/amoreco.jpeg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    background-color: white;
+    width: 90px;
+    height: 100px;    
+}
+p{
+    color: rgb(105,105,105);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,300%);    
+}
+div#perfis{
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 350%);
+        padding: 5px;
+        border: 1px solid rgb(105, 105, 105);
+        background-color: black;
+        color: rgb(105, 105, 105);
+        height: 20px;
+        width: 150px;
+        text-align: center;
+        margin: 5px white;
+  }
+}
+
+@media secreen and (win-width: 950px) {
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    position: absolute;
+    left: 32%;
+    top: 26%;
+    color: white;
+}
+div#beatriz {
+    background-image: url(img/amor.jpeg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    background-color: white;
+    width: 90px;
+    height: 100px;   
+}
+p{
+    color: rgb(105,105,105);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 300%);   
+}
+div#perfis {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 5px;
+    border: 1px solid rgb(105,105,105);
+    background-color: black;
+    color: rgb(105,105,105);
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 5px white;
+}
+}    

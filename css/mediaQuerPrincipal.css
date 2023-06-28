@@ -1,0 +1,47 @@
+
+@media (max-width: 600px) {
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    div#imagem {
+        background-image: url();
+        background-size: cover;
+        background-position:  center center;
+        width: 99%;
+        height: 400px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 8px rgb(146,146,146, 0.274);
+    }
+    h5#navegar{
+        color: white;
+        position: absolute;
+        bottom: 92.5%;
+        left: 13%;
+        font-size: 0.7em;
+    }
+    p#alta{
+        color: white;
+        font-size: 1.1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate( -410, 500%);
+
+    }
+    u1#tp {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+
+
+    }
+    u1#tp img {
+
+        width: 250px;
+        margin: 10px;
+        border-radius: 1px;
+        box-shadow: 1px 1px 1px rgba(255,255,255, 0.136);
+    } 
+}

@@ -1,0 +1,216 @@
+
+
+* {
+     margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    text-transform: none;
+}
+
+body {
+    background-color: rgb(17,17,17);;;
+}
+
+div#imagem{
+    background-image: url(AMOREQUITO\ 2.2.jpeg);
+    background-size: cover;
+    background-position: center center;
+    width: 99%;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(146, 146, 146, 0.274);
+    display: line-block;
+}
+
+img#logo {
+    position: absolute;
+    bottom: 93%;
+    size: 5px;
+    width:  120px;
+}
+h5#navegar {
+    color: white;
+    position: absolute;
+    bottom: 95.4%;
+    left: 25%;
+    font-size: 1.2em;   
+}
+
+#lupa {
+    position: absolute;
+    top: 2.3%;
+    left: 78%;
+    color: white;
+    width: 30px;
+
+}
+
+#sino {
+    position: absolute;
+    top: 2%;
+    left: 70%;
+    color:white;
+}
+div#icon {
+    background-image: url(amor.jpeg);
+    background-position: right right;
+    background-size: cover;
+    position: absolute;
+    top: 2%;
+    left: 87%;
+    width: 60px;
+    height: 70px;
+    border-radius: 5px;   
+}
+
+p#titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 13%;
+    left: 3%;
+}   
+p#subtitulo { 
+    color: white;
+    font-size: 0.8em;
+    position: absolute;
+    top: 30%;
+    left: 3%;    
+}
+
+div#play {
+    display: inline-block;
+    color: black;
+    background-color: white;
+    width: 112px;
+    height: 35px;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.3em;
+
+}
+
+
+
+.container {
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .item {
+    position: relative;
+    display: block;
+    flex: 1 1 0px;
+    transition: transform 500ms;
+  }
+  
+  .container:focus-within .item,
+  .container:hover .item {
+    transform: translateX(10%);
+  }
+  
+  .item:focus ~ .item,
+  .item:hover ~ .item {
+    transform: translateX(25%);
+  }
+  
+  .container .item:focus,
+  .container .item:hover {
+    transform: scale(1.5);
+    z-index: 1;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  .item img {
+    display: block;
+    max-width: 100%;
+  }
+
+
+
+p#alta {
+    color:rgb(252, 247, 247);
+    font-size: 1.2em;
+    position: absolute;
+    top: 51%;
+    left: 60%;
+    transform: translate(-211%,110%);
+}
+
+ul#tp img {
+
+    width: 155px;
+    margin-right: 10px;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1px rgb(255,255,255, 0 .136);
+}
+
+p#novamente {
+    color: white;
+    font-size: 1.2em;
+    position: absolute;
+    top: 90%;
+    left: 50%; 
+    transform: translate(-22%, -40%);  
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+  }
+  
+  .item {
+    position: relative;
+    display: block;
+    flex: 1 1 0px;
+    transition: transform 500ms;
+  }
+  
+  .container:focus-within .item,
+  .container:hover .item {
+    transform: translateX(-25%);
+  }
+  
+  .item:focus ~ .item,
+  .item:hover ~ .item {
+    transform: translateX(25%);
+  }
+  
+  .container .item:focus,
+  .container .item:hover {
+    transform: scale(1.5);
+    z-index: 1;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  .item img {
+    display: block;
+    max-width: 100%;
+  }
+    
+
+
+
+u1#sp img {
+    width: 155px;
+    margin-right: 10px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(255,255,255, 0.136);
+}
